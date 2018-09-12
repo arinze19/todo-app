@@ -6,7 +6,7 @@ var port = 3000;
 app.get('/', function (req, res){
     res.status(200).send('Hello World');
 });
-app.get('/summer', function (req, res){
+app.get('/winter', function (req, res){
     res.status(404).send('Page not found');
 });
 
